@@ -1,0 +1,57 @@
+.app-container{
+    background-color: black;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.speedometer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width:700px;
+    height : 300px;
+}
+.heading{
+    text-align: center;
+    color : white;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+}
+.paragraph{
+    color : white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+}
+.speed-limit{
+     color : white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+}
+.button-container{
+    display:flex;
+    justify-content: space-between;
+}
+.increase{
+    color : white;
+    background-color:  #0b69ff;
+    border-radius: 5px;
+    border-color :#0b69ff;
+    width : 100px;
+    padding : 10px;
+}
+.decrease{
+    color : #94a3b8;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color : #cbd5e1;
+    width : 100px;
+    padding-left : 10px;
+}
